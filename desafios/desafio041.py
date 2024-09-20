@@ -5,9 +5,13 @@
 # - Até 25 anos: SÊNIOR
 # - Acima: MASTER
 
+from datetime import date
+
 print('=' * 10,'CONFEDERAÇÃO NACIONAL DE NATAÇÃO','=' * 10)
 
-idade = int(input('Qual sua idade? '))
+nasc = int(input('Ano de nascimento: '))
+
+idade = date.today().year - nasc
 
 if idade <= 9:
     print('Categoria: MIRIM')
