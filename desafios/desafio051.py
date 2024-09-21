@@ -2,7 +2,9 @@
 
 a1 = int(input('Primeiro termo: '))
 r = int(input('Razão: '))
+decimo = a1 + (10 - 1) * r
 
-for n in range (1, 11):
-    an = a1 + (n - 1) * r
-    print(an)
+for n in range (a1, decimo + r, r):
+    print(n, end=' -> ')
+
+print('ACABOU')
