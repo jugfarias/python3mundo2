@@ -1,0 +1,1 @@
+# Melhore o desafio 061, perguntando se o usuário quer mostrar mais alguns termos. O programa encerra quando ele disser que quer mostrar 0 termos.
