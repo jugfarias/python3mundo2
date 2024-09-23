@@ -2,7 +2,6 @@
 
 a1 = int(input('Primeiro termo: '))
 r = int(input('Razão: '))
-decimo = a1 + (10 - 1) * r
 resp = 1
 n_max = 10
 
