@@ -28,5 +28,3 @@ media = soma / cont
 print('A média dos {} valores digitados é: {}'.format(cont, media))
 print('O maior valor foi: {}'.format(maior))
 print('O menor valor foi: {}'.format(menor))
-
-
